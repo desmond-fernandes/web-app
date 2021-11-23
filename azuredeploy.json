@@ -1,36 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@desmond-fernandes 
-Azure
-/
-azure-quickstart-templates
-Public
-726
-11.1k13.8k
-Code
-Issues
-821
-Pull requests
-12
-Actions
-Projects
-Wiki
-Security
-Insights
-azure-quickstart-templates/quickstarts/microsoft.web/webapp-basic-windows/azuredeploy.json
-@akhilthomas011
-akhilthomas011 MOVE: 101-webapp-basic-windows to quickstarts\microsoft.web\webapp-ba…
-…
-Latest commit 5406f7f on May 3
- History
- 1 contributor
-117 lines (117 sloc)  4.1 KB
-   
+  
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
