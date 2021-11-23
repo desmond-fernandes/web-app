@@ -20,7 +20,7 @@
         },
         "sku": {
             "type": "string",
-            "defaultValue": "F1",
+            "defaultValue": "P1V2",
             "metadata": {
                 "description": "The SKU of App Service Plan."
             }
@@ -95,7 +95,8 @@
             ],
             "properties": {
                 "siteConfig": "[variables('configReference')[parameters('language')]]",
-                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanPortalName'))]"
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanPortalName'))]",
+                "httpsOnly": true
             },
             "resources": [
                 {
@@ -116,16 +117,3 @@
         }
     ]
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
